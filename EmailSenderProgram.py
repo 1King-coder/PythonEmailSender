@@ -6,6 +6,7 @@ from PyQt5.QtGui import QPixmap
 import smtplib
 from DataBase import Data
 import os
+form pathlib import Path
 
 
 # Application class.
@@ -78,7 +79,7 @@ class EmailSenderProgram(QMainWindow, Ui_MainWindow):
 
         # Change 'directory_root' to your directory root.
         self.db = Data.AddressersData(
-            r'#directory_root\Email Sender Program\DataBase\PeopleData.db',
+            Path('../Email Sender Program/DataBase/PeopleData.db'),
             'PeopleEmails'
         )
 
@@ -267,7 +268,7 @@ class EmailSenderProgram(QMainWindow, Ui_MainWindow):
 
             # Sets E-mail template.
             msg = SendEmails.set_template(
-                r'#directory_root\SendRoot\template',
+                Path('SendRoot/template.html'),
                 self.take_attachment_name(),
                 self.take_sender_name()
             )
