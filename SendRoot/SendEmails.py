@@ -12,7 +12,7 @@ def template(template, file_name, p_name):
     """
     Takes template and set html variables values, setting E-mail body.
     """
-    with open(f'{template}.html', 'r') as html:
+    with open(f'{template}', 'r') as html:
         temp = Template(html.read())
         body = temp.substitute(trabalho=file_name, nome=p_name)
         return body
