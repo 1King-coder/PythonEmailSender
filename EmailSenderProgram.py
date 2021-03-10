@@ -6,7 +6,7 @@ from PyQt5.QtGui import QPixmap
 import smtplib
 from DataBase import Data
 import os
-form pathlib import Path
+from pathlib import Path
 
 
 # Application class.
