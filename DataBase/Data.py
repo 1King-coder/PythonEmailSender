@@ -1,5 +1,5 @@
 import sqlite3
-
+from pathlib import Path
 
 # Database class.
 class AddressersData:
@@ -56,6 +56,6 @@ class AddressersData:
 
 if __name__ == '__main__':
     addresseers_data = AddressersData(
-        'PeopleData.db', 'PeopleEmails')
+        Path('DataBase/PeopleData.db'), 'PeopleEmails')
 
     addresseers_data.close()
