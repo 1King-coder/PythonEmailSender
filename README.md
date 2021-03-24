@@ -1,47 +1,45 @@
 # PythonEmailSender
-My personal project, using sqlite3 and PyQt5.
 
-This is my first complete and public project.
+Meu projeto pessoal, usando sqlite3 e PyQt5.
 
-~~ Motivation ~~
-      
-    Optimizing day-to-day life and solving school problems.
-  This progam project was made to solve problems from my school day-to-day life,
-  like needing to ask teacher's e-mail always when they ask us to send a homework
-  by e-mail and having to send e-mails to multiple students or teachers.
-  
-~~ What this program do ~~
+Este é o meu primeiro projeto completo e público.
 
-    Sending e-mails to one or multiple addresseers with one or more attachments.
-  It creates a e-mail using a template in html and possibilite you to add several
-  attachments to it. You can put every kind of file as a attachment, from everywhere
-  in your computer.
-    It uses a Database in sqlite3, where you can insert people using it's Module in the
-  DataBase directory or openning it with DB Browser.
-  
-~~ The Modules ~~
+~~ Motivação ~~
 
-  - Data -
-    The DataBase module is from where the application connects with the database and brings
-  the requested data. It is possible to insert, edit and delete, people data there.
+    Otimizando o dia a dia e resolvendo problemas escolares.
+  Esse projeto de programa foi feito para resolver problemas do meu dia-a-dia escolar,
+  como precisar pedir o e-mail do professor sempre que eles nos pedem para enviar uma lição de casa
+  por e-mail e ter que enviar e-mails para vários alunos ou professores.
+
+~~ O que este programa faz ~~
+
+    Envio de e-mails para um ou vários destinatários com um ou mais anexos.
+  Ele cria um e-mail usando um template em html e possibilita a você adicionar vários
+  anexos a ele. Você pode colocar qualquer tipo de arquivo como um anexo, de qualquer lugar
+  no seu computador.
+    Ele usa um banco de dados em sqlite3, onde você pode inserir pessoas usando seu módulo no
+  Diretório DataBase ou abrindo-o com o DB Browser.
   
-  - SendEmails - 
-    The SendRoot module is where the Template is set and the selected file is Treated to 
-  become a MIME and be attached to the message.
-  
-  - EmailSenderProgram - 
-    The EmailSenderProgram is the Main Module, where the GraphicGui is configured and the
-  Program is executed.
-  
-  ~~ Final considerations ~~
-  
-  This Project is a whole ideia of mine, it stills have a lot of implementations and functions
-  that i'd like to include, but i'm wanting to learn more and soon i'll make other ambitious projects.
-  
-      Please fell free to make impletmentations and updates into this program, my will is to learn more and more about python and others languages!
- 
-  
+~~ Os Módulos ~~
+
+  - Dados -
+    O módulo DataBase é de onde o aplicativo se conecta ao banco de dados e traz
+  os dados solicitados. É possível inserir, editar e excluir dados de pessoas lá.
+
+  - Mande emails -
+    O módulo SendRoot é onde o modelo é definido e o arquivo selecionado é tratado
+  torne-se um MIME e seja anexado à mensagem.
+
+  - EmailSenderProgram -
+    O EmailSenderProgram é o Módulo Principal, onde o GraphicGui é configurado e o
+  O programa é executado.
+
+  ~~ Considerações finais ~~
+
+  Este projeto é uma ideia minha, ainda tem muitas implementações e funções
+  que gostaria de incluir, mas quero aprender mais e logo farei outros projetos ambiciosos.
+
+      Fique à vontade para fazer implementações e atualizações neste programa, minha vontade é aprender mais e mais sobre python e outras linguagens!
+
+
   P.S. Vitor dos S. B.  (1King-coder)
-  
-  
-
